@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes">
+    <test name="Login_Test">
+        <classes>
+            <class name="org.Tests.Login_Test" />
+        </classes>
+    </test>
+    <test name="Forgot_Password_Test">
+        <classes>
+            <class name="org.Tests.Forgot_Password_Test" />
+        </classes>
+    </test>
+</suite>
